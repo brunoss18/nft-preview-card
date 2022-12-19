@@ -65,6 +65,7 @@ main.card {
 
 main>h1.name {
   font-size: 1.3rem;
+  font-weight: bold;
   margin: 1rem 0 1rem 0rem;
 
 }
@@ -89,7 +90,7 @@ main>.cripto>.eth>img {
 
 main>.cripto>.eth>p {
   color: hsl(178, 100%, 50%);
-
+  white-space: nowrap;
   margin: 0 4.7rem 0rem 0rem;
 }
 
