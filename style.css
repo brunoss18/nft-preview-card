@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+main {}
+
+.card>img:first-child {
+  width: 90%;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.card {
+  background: hsl(216, 50%, 16%);
+  display: flex;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 19rem;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+}
+.card > img:first-child{
+  border-radius: 0.5rem;
+}
+.card>p.name {
+  font-size: 1.3rem;
+  margin: 0 0 1rem 1rem;
+}
+
+.card>p.desc {
+  font-size: .9rem;
+  color: hsl(215, 51%, 70%);
+  margin: 0 0 1rem 1rem;
+}
+
+.card>.cripto {
+  display: flex;
+
+  position: relative;
+}
+
+.card>.cripto>.eth>img {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+
+.card>.cripto>.eth>p {
+  color: hsl(178, 100%, 50%);
+
+  margin: 0 4.7rem 0rem 0rem;
+}
+
+.card>.cripto>.days>p {
+  color: hsl(215, 51%, 70%);
+}
+
+.card>.cripto>.days>img {
+
+  margin-right: 0.5rem;
+}
+
+.card>.cripto::before {
+  content: '';
+  width: 17rem;
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.eth {
+  display: flex;
+}
+
+.days {
+  display: flex;
+}
+div.credits{
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+div.credits>img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2rem 0rem 1rem 1rem;
+}
+
+.creator{
+  margin: 2.5rem 0rem 1rem 1rem;
+  color: hsl(215, 51%, 70%);
+  font-size: .9rem
+}
+.credits> p.name{
+  margin: 2.5rem 0rem 1rem 0.5rem;
+ font-size: .9rem
+}
