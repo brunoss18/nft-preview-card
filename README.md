@@ -9,11 +9,11 @@ Thanks for checking out this front-end coding challenge.
 
 
 
-##The challenge
+## The challenge
 
  Challenge is to build out this preview card component and get it looking as close to the design as possible.
 
-##Acess the project
+## Acess the project
 https://nft-card-preview-br.netlify.app/
 
 
